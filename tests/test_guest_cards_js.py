@@ -279,7 +279,7 @@ async def test_group_headings_are_quiet_real_headings(client, sample_token, mock
     console.log(JSON.stringify(document.getElementById('cards-container').innerHTML));
     """)
     headings = re.findall(r"<h2 [^>]*>([^<]*)</h2>", out)
-    assert headings == ["Lights", "Locks"]
+    assert headings == ["Locks", "Lights"]
     # No competing domain icon or shouty mono caps in the heading any more.
     assert "uppercase" not in re.search(r"<h2 [^>]*>", out).group(0)
 
