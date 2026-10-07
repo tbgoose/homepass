@@ -1,8 +1,8 @@
 name: HomePass
-version: "1.1.1"
+version: "1.1.2"
 slug: homepass
 description: Shareable guest links for controlling Home Assistant devices
-url: "https://github.com/ljmerza/homepass"
+url: "https://github.com/tbgoose/homepass"
 arch: [amd64, aarch64]
 startup: application
 boot: auto
@@ -43,4 +43,3 @@ schema:
   trusted_proxies: "str?"
   api_enabled: bool
   api_token: "password?"
-image: "ghcr.io/ljmerza/homepass"
