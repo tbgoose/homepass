@@ -1,7 +1,7 @@
 // Shared domain configuration — single source of truth for guest + admin UIs.
 // To add a new HA entity domain, edit only this file.
-const DOMAIN_ORDER = ['camera','light','switch','input_boolean','group','climate','lock','alarm_control_panel',
-  'media_player','cover','fan','button','input_button','counter','timer','input_number','input_text',
+const DOMAIN_ORDER = ['cover','lock','camera','light','switch','input_boolean','group','climate','alarm_control_panel',
+  'media_player','fan','button','input_button','counter','timer','input_number','input_text',
   'input_select','time','datetime','input_datetime','schedule','sensor','binary_sensor'];
 const DOMAIN_LABELS = {
   camera: 'Cameras', light: 'Lights', switch: 'Switches', input_boolean: 'Switches', group: 'Groups',
@@ -14,7 +14,7 @@ const DOMAIN_LABELS = {
 const DOMAIN_ICONS = {
   camera: 'videocam', light: 'lightbulb', switch: 'toggle_on', input_boolean: 'toggle_on', group: 'workspaces',
   climate: 'thermostat', lock: 'lock', alarm_control_panel: 'security', media_player: 'speaker',
-  cover: 'blinds', fan: 'mode_fan', button: 'radio_button_checked', input_button: 'radio_button_checked',
+  cover: 'gate', fan: 'mode_fan', button: 'radio_button_checked', input_button: 'radio_button_checked',
   counter: 'exposure_plus_1', timer: 'timer', input_number: 'tune', input_text: 'text_fields',
   input_select: 'list', time: 'schedule', datetime: 'event', input_datetime: 'event',
   schedule: 'calendar_month', sensor: 'sensors', binary_sensor: 'motion_sensor_active',
